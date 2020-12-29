@@ -1,0 +1,54 @@
+html{
+	position: relative;
+}
+.carousel-inner{
+	width: 100% 50%;
+	height: 
+	max-height: 1025px !important;
+}
+.box-makanan{
+	width: 360px;
+	height: 460px;
+	margin-left: 75px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	overflow: hidden;
+	box-shadow: 1px 1px 5px 1px #cdcdcd;
+	float: left;
+	justify-content: center;
+
+}
+.box-makanan > img{
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+}
+.box-makanan > p{
+	width: 100%
+	height: 30%;
+	text-overflow: ellipsis;
+}
+.box-makanan > a{
+	margin: 30px 20px 10px;
+	background-color: darkcyan;
+	color: white;
+	padding: 10px 20px;
+	border-radius:10px;
+}
+.box-makanan:hover{
+	box-shadow: 1px 1px 5px 0 darkcyan; 
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+}
+footer p {
+
+	color:#DCDCDC;
+	font-size: 1em;
+}
